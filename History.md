@@ -7,6 +7,6 @@ For more information Why he created the Python watch this keynote videos of Pyco
 
 What Python offers:-
 
-  * Interpreter Driven [Read more words!](docs/compiler&interpreter.md)
+  * Interpreter Driven [Read more words!](docs/c&i.md)
   
     
