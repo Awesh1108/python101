@@ -4,12 +4,12 @@ A beginners guide to getting started with python programming.
 
 ## History
 
-[Click Here](History.md)
+[Past of Python!](History.md)
 
 
-## Difference B/w Python2 and Python3 Why go for Python3?
+## B/w Python2 and Python3 Why Choose Python3?
 
-[Click Here](py-2-vs-3.md)
+[Why choose Python3!](py-2-vs-3.md)
 
 
 ## Setup
