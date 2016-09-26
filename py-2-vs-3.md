@@ -2,10 +2,82 @@
 
 Python 2.x is legacy.
 
+Python 2.x support will end on 2020, you will only get security updates, no New features
+
+There would be not offical Python 2.8.
+
 Python 3.x is the present and future of the language
 
 
 ---------------------------------------------------------------------------
+
+### print
+
+#### Python 2
+
+`print` is a statement.
+
+```python
+>>> print('python')
+python
+>>> print x, y
+1 2
+>>> print(x, y)
+(1, 2)
+```
+
+#### Python 3
+
+`print` is a function.
+
+```python
+>>> print(x, y)
+1 2
+>>> print("hello")
+hello
+```
+---------------------------------------------------------------------------
+
+
+### unicode
+
+#### Python 2
+
+```python
+>>> type('python')
+<type 'str'>
+>>> type(unicode('python'))
+<type 'unicode'>
+>>> type('python')
+<type 'unicode'>
+
+>>> print 'string \u03BC'
+string \u03BC
+
+```
+
+
+#### Python 3
+
+```python
+>>> type('hello')
+<class 'str'>
+>>> type(u'hello')
+<class 'str'>
+
+
+>>> print('string \u03BC')
+string μ
+
+>>> r = 5
+>>> π = 3.17
+>>> c = 2 * π * r
+>>> c
+31.7
+```
+
+---------------------------------------------------------------------------
+
 
 ### Division
 
@@ -37,73 +109,6 @@ Python 3.x is the present and future of the language
 
 ---------------------------------------------------------------------------
 
-### print
-
-#### Python 2
-
-`print` is a statement.
-
-```python
->>> print('python')
-python
->>> print x, y
-1 2
->>> print(x, y)
-(1, 2)
-```
-
-#### Python 3
-
-`print` is a function.
-
-```python
->>> print(x, y)
-1 2
->>> print("hello")
-hello
-```
-
----------------------------------------------------------------------------
-
-### unicode
-
-#### Python 2
-
-```python
->>> type('python')
-<type 'str'>
->>> type(unicode('python'))
-<type 'unicode'>
->>> type('python')
-<type 'unicode'>
-
->>> print 'string \u03BC'
-string \u03BC
-
-```
-
-
-
-#### Python 3
-
-```python
->>> type('hello')
-<class 'str'>
->>> type(u'hello')
-<class 'str'>
-
-
->>> print('string \u03BC')
-string μ
-
->>> r = 5
->>> π = 3.17
->>> c = 2 * π * r
->>> c
-31.7
-```
-
----------------------------------------------------------------------------
 
 ### range
 
